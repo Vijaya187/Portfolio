@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijay Portfolio</title>
+    <!--Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    
+    <!--style css-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/v-logo-png.png"
+      type="image/x-icon"
+    />
+    <!-- <script src="https://kit.fontawesome.com/e324b537a2.js" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <div id="peloader"> <span>Loading</span>
+    </div>
+    <!-- headr page -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="images/vijay-logo.png" class="logo"> -->
+          <h1 class="logo-name"><span class="text-v">V</span>IJAY.</h1>
+          <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        
+              <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend developer <span>Fresher</span></p>
+          <div class="skillanimaion">
+             <div>HTML</div>
+              <div>CSS</div>
+              <div>BOOSTRAP</div>
+              <div>JAVASCRIPT</div>
+              <div>REACT JS</div>
+              
+          </div>
+          <h1>Hi, I'm <span> Vijay</span> <br />From Chennai</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ______About_______ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="myimages/vijay-img 2.png.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tittle">About Me</h1>
+            <p>
+             Hello! I'm M. Vijayarajan, a passionate individual with a Master's degree from Chennai.
+               my interests and skills extend far beyond the realm
+               of science. I've delved into the world of web development and have acquired proficiency in various 
+               technologies.   
+              Technical Skills:
+HTML: I have a solid understanding of structuring web pages using HTML, ensuring clean and semantically correct markup.
+CSS: Cascading Style Sheets (CSS) is my tool of choice for styling websites, enabling me to create visually appealing and responsive designs.
+JavaScript: With JavaScript, I add interactivity and dynamic behavior to web pages, enhancing user experience.
+Bootstrap: I leverage Bootstrap to expedite the development process, utilizing its grid system, components, and utilities for building responsive and mobile-first websites.
+React.js: While my expertise in React.js is foundational, I am adept at building user interfaces and interactive components using this powerful library.          </p>
+             <!-- tab-tittles -->
+             <div class="tab-tittles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+             </div>
+             <!-- tab-contents -->
+             <!-- tab-contents skills -->
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Frontend developer</span><br>Developing Wep/App interfaces.</li>
+                    <section>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOSTRAP</li>
+                    <li>TAILWIND CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>REACT JS</li>
+                    <li>GITHUB</li>
+                    </section>
+                </ul>
+
+             </div>
+             <!-- tab-contents Experience -->
+             <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>Fresher</span><br>Developing Wep/App interfaces.</li>
+                    <section>
+                    <h2>Resbosive Websites:</h2>
+                    <li>Created the first task in boostrap,Shoping cart create,Quiz application create in React js.</li>
+                    <h2>Used Tools:</h4>
+                    <li>HTML,CSS3,BOOSTRAP(Framework),JAVASCRIPT,REACT JS(Library).</li>
+                    <h2>Role:</h2>
+                    <li>Frontend developer</li>
+                    <h2>Contribution:</h2>
+                    <li>Develope the overall design and layout,Resbosive design,boostrap components like navbar,modals,carsoual</li>
+                    <li>Dyanamic user interface.</li>
+
+                    </section>
+                </ul>
+
+             </div>
+             <!-- tab-contents Education -->
+             <div class="tab-contents" id="Education">
+                <ul>
+                    <h3>My education</h3>
+                   <section>
+                    <h2>School completed:</h2>
+                    <li><span>School name:</span>[Ranji Aaron Memorial HR.sec school Aanandhapuram]</li>
+                    <li><span>Degree:</span>[10th grade completion]</li>
+                    <li><span>Years Attended</span>:[2015-16]</li>
+                    <h4><span>Degree:</span>[12th grade completion]</h4>
+                    <li><span>Years Attended:</span>[2017-18]</li>
+                    <h2>College Completed:</h2>
+                     <li><span>College name:</span>[Nazareth Margozhis college at pillayanmanai]</li>
+                     <li><span>University:</span>[Manonmanium Sundaranar University Thirunelveli]</li>
+                    <li><span>Degree:</span>[Bachelor's degree in Chemistry]</li>
+                    <li><span>Years Attended</span>:[2018-21]</li>
+                    <h4><span>Degree:</span>[Master degree in chemistry]</h4>
+                    <li><span>Years Attended</span>:[2021-23]</li>
+                   </section>
+                </ul>
+
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------services---------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+          <div class="">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quasi temporibus fugit, harum ipsam sapiente a ratione assumenda,
+               quidem natus mollitia exercitationem aliquam, 
+              beatae ab totam autem. Perferendis quia molestias ex!.</p>
+              <a href="#">Read More</a>
+          </div>
+           <div>
+            <i class="fa-brands fa-connectdevelop"></i>
+            <h2>Frontend developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quasi temporibus fugit, harum ipsam sapiente a ratione assumenda,
+               quidem natus mollitia exercitationem aliquam, 
+              beatae ab totam autem. Perferendis quia molestias ex!.</p>
+              <a href="#">Read More</a>
+          </div>
+           <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>React js developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quasi temporibus fugit, harum ipsam sapiente a ratione assumenda,
+               quidem natus mollitia exercitationem aliquam, 
+              beatae ab totam autem. Perferendis quia molestias ex!.</p>
+              <a href="#">Read More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- ---------Portfolio section--------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="myimages/shp-img.jpg">
+            <div class="layer">
+              <h3>University Website</h3>
+               <p class="lp">Lorem ipsum dolor sit amet consecteturadipisicing elit.Ipsa asperiores quos repellat.
+                , quam corrupti maiores veritatis similiquevero accusantium cupiditate
+               </p>                 
+                 <a href="https://harmonious-lily-78acf7.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="myimages/frd-img.jpg">
+            <div class="layer">
+              <h3>Weather app</h3>
+              <p class="lp">Lorem ipsum dolor sit amet consecteturadipisicing elit.Ipsa asperiores quos repellat.
+                , quam corrupti maiores veritatis similiquevero accusantium cupiditate
+               </p> 
+                 <a href="https://eloquent-salmiakki-3c89c0.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="myimages/web-img.avif">
+            <div class="layer">
+              <h3>Amazon clone</h3>
+               <p class="lp">Lorem ipsum dolor sit amet consecteturadipisicing elit.Ipsa asperiores quos repellat.
+                , quam corrupti maiores veritatis similiquevero accusantium cupiditate
+               </p> 
+                 <a href="https://glistening-marigold-ee3880.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+      </div>
+    </div>
+    <!-- -------Contact-------- -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+           <h1 class="sub-tittle">Contact Me</h1>
+           <a href="mailto:vijayar929@gmail.com"><p><i class="fa-solid fa-envelope"></i>vijayar929@gmail.com</p></a>
+            <a href="mailto:vijaya8777@gmail.com"><p><i class="fa-solid fa-envelope"></i>vijaya8777@gmail.com</p></a>
+            <a href="callto:+919025118435"><p><i class="fa-solid fa-phone"></i>9025118435</p></a>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/josephjase22?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://x.com/Vijay0007165443?t=ExAuyMH99oP5u6ehEZgBcw&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/vijayduke007/?igsh=MTIxcmJ0MzB3YjU5ag%3D%3D" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https:/www.linkedin.com/in/vijaya-rajan-s-3b6781309" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="resumefile/Vijayarajan-resume (1).pdf" class="btn btn-2" download>Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required autocomplete="off">
+            <input type="email" name="Email" placeholder="Your Email" required autocomplete="off">
+            <textarea name="Message" rows="10" placeholder="Message here" required></textarea>
+            <button type="submit" class="btn btn-2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+          
+
+
+        </div>
+      </div>
+      <div class="Copyright">
+      <p>&copy; 2024 India Tamilnadu,inc.All rights reserved.My portfolio &hearts; Vijay</p>
+      <!-- <ul>
+        <li>privacy policy</li>
+        <li>Terms of Use</li>
+        <li>Accesibility</li>
+      </ul> -->
+      </div>
+
+    </footer>
+
+
+    <!-- <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-solid fa-crop"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-solid fa-phone"></i> -->
+    <script src="script.js"></script>
+  </body>
+</html>
